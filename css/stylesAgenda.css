@@ -6941,17 +6941,10 @@ textarea.form-control-lg {
 .mt-4 {
   margin-top: 1.5rem !important;
 }
-/*Posicion de la imagen en testVocaional*/
-.mt-55 {
-  margin-top: -7.2rem !important;
-}
-.mt-8 {
-  margin-top: 2rem !important;
-}
+
 .mt-5 {
   margin-top: 12rem !important;
 }
-
 
 .mt-auto {
   margin-top: auto !important;
@@ -6996,9 +6989,7 @@ textarea.form-control-lg {
 .mb-2 {
   margin-bottom: 0.5rem !important;
 }
-.mb-22 {
-  margin-bottom: -4.5rem !important;
-}
+
 .mb-3 {
   margin-bottom: 1rem !important;
 }
@@ -7007,7 +6998,9 @@ textarea.form-control-lg {
   margin-bottom: 1.5rem !important;
 }
 
-
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
 
 .mb-auto {
   margin-bottom: auto !important;
@@ -7121,6 +7114,7 @@ textarea.form-control-lg {
 }
 
 .py-5 {
+  /*padding-top: 3rem !important; otro tenia 3*/
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
@@ -7905,7 +7899,9 @@ textarea.form-control-lg {
   .mt-sm-5 {
     margin-top: 3rem !important;
   }
-
+.mt-55 {
+  margin-top: -7.2rem !important;
+}
   .mt-sm-auto {
     margin-top: auto !important;
   }
@@ -10879,7 +10875,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: ;
+  background-color: #f4623a;
   opacity: 1;
 }
 
@@ -10916,7 +10912,7 @@ hr.divider-light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: f4623a;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -10960,31 +10956,12 @@ hr.divider-light {
     color: #fff;
   }
 }
-.redes-container{
-  display: flex;
-  height: 10vh;
-  align-items: center;
-  justify-content: ;
-}
-.redes-container ul li{
-  margin: 0 5px;
-  width: 50px;
-  height: 50px;
-  text-align: left;
-}
-.redes-container ul li a{
-  display: block;
-  padding: 0 10px;
-  color: fff;
-  font-size: 50px;
-}
-
 
 /*IMAGEN DEL FONDO , Y QUITAR EL OPACO*/
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(72, 98, 142, 0.15) 0%, rgba(72, 98, 142, 0.15) 100%), url("../assets/img/cientificas.png"); 
+  background: linear-gradient(to bottom, rgba(72, 98, 142, 0.15) 0%, rgba(72, 98, 142, 0.15) 100%), url("../assets/img/cientificas2.png"); 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
